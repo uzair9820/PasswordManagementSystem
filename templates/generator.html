@@ -1,0 +1,94 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{% static 'styles/index.css' %}"/>
+        <title>Password Generator</title>
+    </head>
+    <body class="mh-100">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img width="50px" id="logo" src="{% static 'sources/logo.png' %}">
+                <a class="navbar-brand" href="#">Password Manager</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="manager">Password Manager</a>
+                        </li>
+                    </ul>
+                    {% csrf_token %}
+                    <div class="d-flex align-items center justify-content-center">  
+                        <button style="color:white;background-color:transparent" disabled>{{ Email }}</button>
+                        <button class="btn btn-warning mx-3" onclick="location.href='{% url 'logout' %}'">Log Out</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="d-flex align-items-center justify-content-center mh-100" id="box">
+            <div class=" align-items-center justify-content-center bg-dark align-self-center p-5 rounded-4" id="form">
+                <form method="post" action="/generate">
+                    {% csrf_token %}
+                    <div class="mb-4">
+                        <h2 class="text-center" style="color: white;">Password Generator</h2>
+                    </div>
+                    <div class="align-items-center justify-content-evenly">
+                        <label class="form-label mb-0" style="color: white;">Length</label>
+                        <select class="form-select my-3 mt-2" aria-label="Default select example" name="length">
+                            <option selected value="10">Ten</option>
+                            <option value="8">Eight</option>
+                            <option value="9">Nine</option>
+                            <option value="10">Ten</option>
+                            <option value="11">Eleven</option>
+                            <option value="12">Twelve</option>
+                            <option value="13">Thirteen</option>
+                            <option value="14">Fourteen</option>
+                            <option value="15">Fifteen</option>
+                            <option value="16">Sixteen</option>
+                            <option value="17">Seventeen</option>
+                            <option value="18">Eighteen</option>
+                            <option value="19">Nineteen</option>
+                            <option value="20">Twenty</option>
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-evenly my-3 mt-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="low">
+                            <label class="form-check-label" for="flexRadioDefault1" style="color:white">
+                                Low
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="medium" checked>
+                            <label class="form-check-label" for="flexRadioDefault2" style="color:white">
+                                Medium
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" value="strong">
+                            <label class="form-check-label" for="flexRadioDefault1" style="color:white">
+                                Strong
+                            </label>
+                        </div>  
+                    </div>    
+                    <div class="d-flex justify-content-evenly mb-3">
+                        
+                        <button type="submit" class="btn btn-primary my-3">Generate</button>
+                    </div>
+                </form>
+                <form class="d-flex justify-content-evenly mb-3 align-items-center mx-5" method="post" action="/copy">
+                    {% csrf_token %}
+                    <input class="col-sm-10 col-form-label rounded-3 m-3 p-2" name="password" type="text" placeholder="Your Password Will Appear Here" aria-label=".form-control-sm example" value={{password}}>
+                    <button type="submit" class="btn btn-primary mt-2 mb-2" onclick="location.href='{% url 'copy' %}'">Copy</button><br>
+                </form>
+            </div>  
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </body>
+</html>

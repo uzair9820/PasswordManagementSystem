@@ -1,0 +1,95 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/index.css' %}"/>
+    <title>Password Manager</title>
+  </head>
+  <body class="mh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img width="50px" id="logo" src="{% static 'sources/logo.png' %}">
+            <a class="navbar-brand" href="index">Password Manager</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav_right">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#contactus">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#aboutus">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Modal ContactUs Start-->
+    <div class="modal fade" id="contactus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p><b>Email: </b>pythonfirebaseproject@gmail.com</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!--Modal ContactUs End-->
+    <!--Modal AboutUs Start-->
+    <div class="modal fade" id="aboutus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">About Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h4><b><i>Python Mini Project | SE Comps</i></b></h4><br>
+            <p><b>Name: </b>Uzair Ansari</p>
+            <p><b>Roll No: </b>05</p>
+            <p><b>UIN: </b>191P005</p>
+            <br>
+            <p><b>Name: </b>Awais Khalifey</p>
+            <p><b>Roll No: </b>16</p>
+            <p><b>UIN: </b>191P016</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!--Modal AboutUs End-->
+    <section class="d-flex align-items-center justify-content-center mh-100" id="box">
+        <div id="form" class=" align-items-center justify-content-center bg-dark align-self-center p-5 mx-3 w-50 my-3">
+            <h4 style="color:white">Welcome To The Most Reliable Password Manager</h4><br>
+            <p style="color:white">A password manager is a software application that is used to store and manage the passwords that a user has for various online accounts and security features. Password managers store the passwords in an encrypted format and provide secure access to all the password information with the help of secured authentication.</p>
+            <p style="color:white"><b>Features:</b></p>
+            <ul style="color:white">
+              <li><b>Password Generator: </b>Users can generate customize length and strength passwords easily and copy it to clipboard.</li>
+              <li><b>Email Auhtentication: </b>Users can sign in securely in their account using thier email and password.</li>
+              <li><b>Encrypted Passwords: </b>We store your passwords in database after proper encryption and decrypt it again while displaying to you.</li>     
+              <li><b>Easy To Use: </b>User can easily add and delete data as well as generate passwords with interactive and simple UI.</li>     
+            </ul>
+        </div>  
+        <div id="form" class=" align-items-center justify-content-center bg-dark align-self-center p-5 mx-3">
+            <h4 style="color:white">Let's Get Started</h4>  
+            <button class="btn btn-primary mx-4 my-3" onclick="location.href='{% url 'signin' %}'">Sign In</button>  
+            <button class="btn btn-primary mx-4 my-3" onclick="location.href='{% url 'signup' %}'">Sign Up</button>  
+        </div>  
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
