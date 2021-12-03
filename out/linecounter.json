@@ -1,0 +1,286 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "f:\\Others\\Semester 4\\Python\\Mini Project\\PythonMiniProject",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-09-05 11:58:11",
+            "filesum": 38,
+            "codesum": 711,
+            "commentsum": 36,
+            "blanksum": 90,
+            "statistics": {
+                ".py": {
+                    "code": 281,
+                    "comment": 26,
+                    "blank": 86
+                },
+                ".html": {
+                    "code": 376,
+                    "comment": 9,
+                    "blank": 1
+                },
+                ".json": {
+                    "code": 12,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 27,
+                    "comment": 0,
+                    "blank": 2
+                },
+                ".svg": {
+                    "code": 15,
+                    "comment": 1,
+                    "blank": 1
+                }
+            },
+            "filelist": [
+                {
+                    "filename": "db.sqlite3",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 9,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "manage.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "PasswordManager\\__init__.py"
+                },
+                {
+                    "filename": "PasswordManager\\__pycache__\\__init__.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "PasswordManager\\__pycache__\\authentication.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "PasswordManager\\__pycache__\\encode.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "PasswordManager\\__pycache__\\generator.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "PasswordManager\\__pycache__\\pgenerator.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "PasswordManager\\__pycache__\\urls.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "PasswordManager\\__pycache__\\views.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "PasswordManager\\admin.py"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "PasswordManager\\apps.py"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "PasswordManager\\encode.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "PasswordManager\\migrations\\__init__.py"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "PasswordManager\\models.py"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 4,
+                    "filename": "PasswordManager\\pgenerator.py"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "PasswordManager\\tests.py"
+                },
+                {
+                    "blank": 1,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "PasswordManager\\urls.py"
+                },
+                {
+                    "blank": 18,
+                    "code": 122,
+                    "comment": 4,
+                    "filename": "PasswordManager\\views.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "PythonMiniProject\\__init__.py"
+                },
+                {
+                    "filename": "PythonMiniProject\\__pycache__\\__init__.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "PythonMiniProject\\__pycache__\\settings.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "PythonMiniProject\\__pycache__\\urls.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "PythonMiniProject\\__pycache__\\wsgi.cpython-39.pyc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "PythonMiniProject\\asgi.py"
+                },
+                {
+                    "blank": 33,
+                    "code": 70,
+                    "comment": 14,
+                    "filename": "PythonMiniProject\\settings.py"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "PythonMiniProject\\urls.py"
+                },
+                {
+                    "blank": 5,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "PythonMiniProject\\wsgi.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "pythonprojectsem4-firebase-adminsdk-aw002-d26c031d2b.json"
+                },
+                {
+                    "filename": "static\\sources\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\sources\\profile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "static\\sources\\profile.svg"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "static\\styles\\index.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 92,
+                    "comment": 1,
+                    "filename": "templates\\generator.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 83,
+                    "comment": 5,
+                    "filename": "templates\\index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 95,
+                    "comment": 1,
+                    "filename": "templates\\manager.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 52,
+                    "comment": 1,
+                    "filename": "templates\\signin.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 54,
+                    "comment": 1,
+                    "filename": "templates\\signup.html"
+                }
+            ]
+        }
+    ]
+}

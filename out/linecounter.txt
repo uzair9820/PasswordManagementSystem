@@ -1,0 +1,59 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-09-05 11:58:11
+count workspace : f:\Others\Semester 4\Python\Mini Project\PythonMiniProject
+total files : 38
+total code lines : 711
+total comment lines : 36
+total blank lines : 90
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .py|            281|             26|             86|     40|
+   |          .html|            376|              9|              1|     53|
+   |          .json|             12|              0|              0|    1.7|
+   |           .css|             27|              0|              2|    3.8|
+   |           .svg|             15|              1|              1|    2.1|
+   -------------------------------------------------------------------------
+db.sqlite3, it is a binary file.
+manage.py, code is 12, comment is 1, blank is 9.
+PasswordManager\__init__.py, code is 0, comment is 0, blank is 0.
+PasswordManager\__pycache__\__init__.cpython-39.pyc, it is a binary file.
+PasswordManager\__pycache__\authentication.cpython-39.pyc, it is a binary file.
+PasswordManager\__pycache__\encode.cpython-39.pyc, it is a binary file.
+PasswordManager\__pycache__\generator.cpython-39.pyc, it is a binary file.
+PasswordManager\__pycache__\pgenerator.cpython-39.pyc, it is a binary file.
+PasswordManager\__pycache__\urls.cpython-39.pyc, it is a binary file.
+PasswordManager\__pycache__\views.cpython-39.pyc, it is a binary file.
+PasswordManager\admin.py, code is 1, comment is 1, blank is 1.
+PasswordManager\apps.py, code is 3, comment is 0, blank is 2.
+PasswordManager\encode.py, code is 12, comment is 0, blank is 2.
+PasswordManager\migrations\__init__.py, code is 0, comment is 0, blank is 0.
+PasswordManager\models.py, code is 1, comment is 1, blank is 1.
+PasswordManager\pgenerator.py, code is 25, comment is 4, blank is 5.
+PasswordManager\tests.py, code is 1, comment is 1, blank is 1.
+PasswordManager\urls.py, code is 20, comment is 0, blank is 1.
+PasswordManager\views.py, code is 122, comment is 4, blank is 18.
+PythonMiniProject\__init__.py, code is 0, comment is 0, blank is 0.
+PythonMiniProject\__pycache__\__init__.cpython-39.pyc, it is a binary file.
+PythonMiniProject\__pycache__\settings.cpython-39.pyc, it is a binary file.
+PythonMiniProject\__pycache__\urls.cpython-39.pyc, it is a binary file.
+PythonMiniProject\__pycache__\wsgi.cpython-39.pyc, it is a binary file.
+PythonMiniProject\asgi.py, code is 4, comment is 0, blank is 5.
+PythonMiniProject\settings.py, code is 70, comment is 14, blank is 33.
+PythonMiniProject\urls.py, code is 6, comment is 0, blank is 3.
+PythonMiniProject\wsgi.py, code is 4, comment is 0, blank is 5.
+pythonprojectsem4-firebase-adminsdk-aw002-d26c031d2b.json, code is 12, comment is 0, blank is 0.
+static\sources\logo.png, it is a binary file.
+static\sources\profile.png, it is a binary file.
+static\sources\profile.svg, code is 15, comment is 1, blank is 1.
+static\styles\index.css, code is 27, comment is 0, blank is 2.
+templates\generator.html, code is 92, comment is 1, blank is 1.
+templates\index.html, code is 83, comment is 5, blank is 0.
+templates\manager.html, code is 95, comment is 1, blank is 0.
+templates\signin.html, code is 52, comment is 1, blank is 0.
+templates\signup.html, code is 54, comment is 1, blank is 0.
+===============================================================================

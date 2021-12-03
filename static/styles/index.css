@@ -1,0 +1,29 @@
+#logo
+{
+    margin: 5px;
+    margin-right: 15px;
+}
+body
+{
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    font-family: "Poppins", sans-serif;
+    
+}
+#box
+{
+    min-height: 85vh;
+}
+#form
+{
+    border-radius: 25px;
+}
+#table
+{
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    border-radius: 20px;
+}
+
