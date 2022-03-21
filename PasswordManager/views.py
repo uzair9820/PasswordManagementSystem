@@ -1,10 +1,7 @@
 from django.shortcuts import render,HttpResponse
 from .pgenerator import gen
-import pyrebase
+import pyrebase 
 from .encode import encode_decode
-
-g = gen()
-d = encode_decode()
 
 #Firebase Project Config
 config={
@@ -15,7 +12,7 @@ config={
     "storageBucket": "pythonprojectsem4.appspot.com",
     "messagingSenderId": "925003264368",
     "appId": "1:925003264368:web:b5f9228b3b269c63e51fb5",
-    "serviceAccount": "F:\Python\Mini Project\PythonMiniProject\pythonprojectsem4-firebase-adminsdk-aw002-d26c031d2b.json",
+    #"serviceAccount": "../../pythonprojectsem4-firebase-adminsdk-aw002-6e44a16bd4.json",
 }
 
 #Intializing Firebase, Firebase Authentication, Firebase Database
